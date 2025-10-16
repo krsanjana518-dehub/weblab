@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home - My Portfolio</title>
+  <style>
+    /* Center header content and nav */
+    header {
+      text-align: center;
+      padding: 20px 0;
+      background-color:#004aad;
+      color: white;
+    }
+
+    body {
+      background-color: lightblue;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "Segoe UI", sans-serif;
+  margin: 0;
+  background: linear-gradient(360deg, #lightblue, lightblue);
+  color: #333
+    }
+    header .logo {
+      font-size: 2em;
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    nav a {
+      display: inline-block;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      color: white;
+    }
+    nav a.active {
+      color: white;
+    }
+    .home {
+      text-align: center;
+      margin-top: 50px;
+    }
+    .btn {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 20px;
+      text-decoration: none;
+      background-color: #004aad;
+      color: white;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    .home{
+      margin-top: 90px;
+      margin-bottom:300px;
+    }
+    footer{
+      background-color:#004aad;
+      padding-bottom: 30px;
+      padding-left: 40;
+      text-align:center;
+      justify-content: center;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 class="logo">🌐 My Portfolio</h1>
+    <nav>
+      <a href="index.html" class="active">Home</a>
+      <a href="resume.html">Resume</a>
+      <a href="bio.html">Bio</a>
+    </nav>
+  </header>
+
+  <main class="home">
+    <section class="intro">
+      <h2>Hello, I’m <span class="highlight">Sanjana K R</span></h2>
+      <p>Pursuing <b>3rd B E Computer Science and Engineering</b></p>
+      <a href="resume.html" class="btn">View My Resume</a>
+      <a href="bio.html" class="btn">View My Bio Data</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 My Portfolio | Designed with ❤</p>
+  </footer>
+</body>
+</html>

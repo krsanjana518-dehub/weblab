@@ -1,0 +1,100 @@
+/* General */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "Segoe UI", sans-serif;
+  margin: 0;
+  background: linear-gradient(360deg, lightblue, lightblue);
+  color: #333;
+}
+
+header {
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #004aad;
+  color: white;
+  padding: 40px 40px;
+}
+
+header .logo{
+  text-align: center;
+  display: block;
+}
+
+.logo {
+  font-size: 1.5rem;
+  justify-content: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+  justify-content: center;
+}
+
+nav a:hover, nav a.active {
+  color: #ffea00;
+}
+
+main {
+  flex: 1;
+  padding: 50px;
+}
+
+.page-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+section.card {
+  background: white;
+  padding: 20px;
+  margin: 15px auto;
+  border-radius: 12px;
+  max-width: 700px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+section.card:hover {
+  transform: scale(1.02);
+}
+
+.profile-pic {
+  width: 150px;
+  border-radius: 50%;
+  display: block;
+  object-fit: cover;
+  margin-left: 0;
+  margin-right: auto;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 20px;
+  margin-top: 15px;
+  background: #004aad;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: lightblue;
+}
+
+footer {
+  text-align: center;
+  padding: 5px;
+  background: #004aad;
+  color: white;
+  margin-top: 30px;
+}
